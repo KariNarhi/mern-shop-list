@@ -58,8 +58,7 @@ class ItemModal extends Component {
               <FormGroup>
                 <Label for="item">Item</Label>
                 <Input
-                  type=""
-                  text
+                  type="text"
                   name="name"
                   id="item"
                   placeholder="Add shopping item"
