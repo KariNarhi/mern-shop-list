@@ -38,6 +38,7 @@ class ItemModal extends Component {
 
     this.props.addItem(newItem);
 
+    // Close modal
     this.toggle();
   };
 

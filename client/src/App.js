@@ -12,7 +12,7 @@ import ItemModal from "./components/ItemModal";
 
 class App extends Component {
   componentDidMount() {
-    store.dispatch(loadUser);
+    store.dispatch(loadUser());
   }
 
   render() {
